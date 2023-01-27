@@ -45,3 +45,19 @@ li {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[class=cta]:hover {
+  background: linear-gradient(90deg, #696484, #8788BA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+div[class=entete]:hover,
+div[class=pied-de-page]:hover {
+  opacity: 0.5;
+}
